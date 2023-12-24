@@ -1,0 +1,943 @@
+@font-face {
+  font-family: "fraunces 9pt";
+  src: url(./fonts/fraunces-9pt-black.ttf);
+}
+
+.open {
+  display: flex !important;
+}
+
+.close {
+  display: none !important;
+}
+
+.mobile_menu_setting{
+  padding-bottom: 0;
+}
+.social:hover {
+  filter: contrast(0.5);
+}
+.container {
+  min-width: 200px;
+  max-width: 1280px;
+  display: flex;
+  gap: 102px;
+  justify-content: flex-start;
+  align-items: center;
+}
+body {
+  background-color: #fefcf7;
+}
+
+header {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+  background: #fefcf7;
+  padding-bottom: 43px;
+  padding-top: 43px;
+  justify-content: space-between;
+}
+
+.navigation_button {
+  display: none;
+}
+main {
+  background: #fefcf7;
+  margin-bottom: 200px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding-inline-start: 0px;
+}
+.main_nav ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  width: 282px;
+  padding-inline-start: 0;
+  margin: 0;
+}
+.main_nav li a:hover {
+  color: #333d4b;
+}
+
+.great_coffe {
+  background-image: url(./img/backgrounds/great_coffe_background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 600px;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 136px;
+  padding: 0 86px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #83888f;
+  font-family: "Barlow";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+.line_setting {
+  max-width: 100%;
+  min-width: auto;
+}
+
+.Bottom:hover {
+  color: #fefcf7;
+}
+
+li {
+  list-style-type: none;
+}
+
+.great_coffe h2 {
+  margin: 0;
+  color: #fefcf7;
+  font-family: "fraunces 9pt";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+  width: 493px;
+  margin: 0;
+}
+
+.why_choose_us h2 {
+  color: #fefcf7;
+  text-align: center;
+  font-family: "fraunces 9pt";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+  margin: 0;
+}
+
+.coffe h3 {
+  width: 255px;
+  color: #333d4b;
+  text-align: center;
+  font-family: "fraunces 9pt";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  /* padding-top: 71.5px;
+  padding-bottom: 24px; */
+  margin: 0;
+}
+
+.choose .combined {
+  padding-top: 43px;
+}
+
+.choose h3 {
+  width: 255px;
+  color: #fff;
+  text-align: center;
+  font-family: "fraunces 9pt";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  margin: 0;
+  padding-top: 32px;
+}
+
+.great_coffe p {
+  color: #fefcf7;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+  width: 444px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.coffe p {
+  width: 255px;
+  color: #333d4b;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 0;
+}
+
+.choose p {
+  width: 255px;
+  color: #fefcf7;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+}
+.why_choose_us h2 + p {
+  width: 529px;
+  color: #fefcf7;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+  margin: 0;
+}
+button {
+  width: 217px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border-style: none;
+  background: #0e8784;
+  color: #fefcf7;
+  text-align: center;
+  font-family: "fraunces 9pt";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #66d2cf;
+}
+
+.our_colection {
+  max-width: 1111px;
+  min-height: 525px;
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+  margin: 0 auto;
+  background-image: url(./img/backgrounds/our_collection_background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 200px;
+}
+
+.coffe img {
+  width: 255px;
+  height: 193px;
+}
+
+.coffe {
+  height: 399px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why_choose_us {
+  max-width: 1280px;
+  min-height: 728px;
+  flex-shrink: 0;
+  background-image: url(./img/backgrounds/why_choose_background.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+  margin-bottom: 200px;
+}
+
+.choose {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 350px;
+  height: 382px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #0e8784;
+  justify-content: flex-end;
+  gap: 24px;
+  box-sizing: border-box;
+  padding-bottom: 48px;
+}
+
+.mainChoose {
+  display: flex;
+  width: 901px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding-bottom: 56px;
+}
+
+.how_it_works {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-start;
+  gap: 95px;
+  background-repeat: no-repeat;
+  margin-left: 85px;
+  margin-bottom: 200px;
+}
+svg {
+  width: 760px;
+  height: 1px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: #fdd6ba;
+}
+
+.howIt {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+  align-content: flex-start;
+  height: 355px;
+}
+
+.howIt p {
+  margin: 0;
+  width: 285px;
+  height: 130px;
+  text-align: left;
+  color: #333d4b;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.howIt h3 {
+  margin: 0;
+  color: #333d4b;
+  width: 255px;
+  font-family: "Fraunces 9pt";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+}
+
+.fourthIn {
+  max-width: 996px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.fourthIn h2 {
+  width: 255px;
+  color: #83888f;
+  font-family: "fraunces 9pt";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px; /* 133.333% */
+  margin: 0;
+}
+
+.nav {
+  background: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 24px;
+}
+
+footer {
+  display: flex;
+  max-width: none;
+  height: 120px;
+  background: #2c343e;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo1 {
+  width: 236px;
+  height: 26px;
+}
+
+.mainNav1 {
+  display: flex;
+  gap: 32px;
+  width: 634px;
+  align-items: center;
+}
+
+.commitment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 125px;
+  width: 1110px;
+  height: 520px;
+  margin: 0 auto;
+  margin-bottom: 168px;
+}
+.commitment img {
+  border-radius: 8px;
+  background: #0e8784;
+}
+.commitmentIn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.commitment p {
+  width: 540px;
+  margin: 0;
+  color: #333d4b;
+
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+}
+.commitment h2 {
+  width: 357px;
+  margin: 0;
+  color: #333d4b;
+
+  font-family: "Fraunces 9pt";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.uncompromising img {
+  border-radius: 8px;
+  background: #0e8784;
+  width: 445px;
+  height: 474px;
+}
+
+.uncompromisingIn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  top: 176px;
+}
+
+.uncompromising p {
+  opacity: 0.8;
+  width: 540px;
+}
+.choose_setting {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.howIt_setting {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.mobile_menu {
+  display: none;
+  position: relative;
+  z-index: 50;
+  align-items: center;
+  justify-content: flex-end;
+  width: 16px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.mobile_menu span {
+  height: 3px;
+  width: 100%;
+  transform: scale(1);
+  background-color: #333d4b;
+  border-radius: 10px;
+}
+
+.mobile_menu::before,
+.mobile_menu::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: #333d4b;
+  transition: all 0.3s ease 0s;
+  border-radius: 10px;
+}
+
+.mobile_menu::before {
+  top: 0;
+}
+
+.mobile_menu::after {
+  bottom: 0;
+}
+
+.mobile_menu.active span {
+  transform: scale(0);
+}
+
+.mobile_menu.active::before {
+  top: 50%;
+  transform: rotate(-45deg) translate(0, -50%);
+}
+
+.mobile_menu.active::after {
+  top: 37%;
+  transform: rotate(45deg) translate(0, 50%);
+}
+
+@media (max-width: 1340px) {
+  .why_choose_us {
+    background-size: contain;
+  }
+}
+@media (max-width: 1160px) {
+  .mainChoose {
+    padding-top: 71px;
+  }
+}
+@media (max-width: 1151px) {
+  .our_colection {
+    min-height: 945px;
+  }
+}
+@media (max-width: 800px) {
+  header {
+    max-width: 689px;
+  }
+
+  .great_coffe {
+    background: url(img/backgrounds/great_coffe_background_800px.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    background-size: 689px 500px;
+  }
+
+  .great_coffe h2 {
+    width: 329px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .great_coffe p {
+    width: 398px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .why_choose_us {
+    background-image: url(./img/backgrounds/why_choose_background_800px.png);
+    background-size: 688px 573px;
+    background-position: top center;
+  }
+  .choose {
+    width: 573px;
+    height: 180px;
+    display: flex;
+    gap: 55px;
+    padding: 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .choose .combined {
+    padding: 0;
+  }
+  .choose img {
+    width: 56px;
+    height: 56px;
+    padding-left: 71px;
+  }
+  .choose p {
+    width: 344px;
+    color: #fefcf7;
+
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: start;
+  }
+  .choose h3 {
+    padding: 0;
+    width: 255px;
+    text-align: start;
+  }
+  .choose_setting {
+    justify-content: flex-start;
+  }
+
+  .why_choose_us h2 {
+    width: 258px;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+  }
+  .why_choose_us h2 + p {
+    width: 540px;
+    color: #fefcf7;
+
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+  }
+
+  .our_colection {
+    min-height: 1025px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  .coffe p {
+    width: 282px;
+  }
+  .coffe {
+    width: 573px;
+    height: 193px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+  .howIt_setting {
+    display: flex;
+    gap: 10px;
+  }
+  .how_it_works {
+    margin: 144px auto;
+    width: 689px;
+    height: 622px;
+    display: flex;
+    gap: 46px;
+  }
+  .howIt h3 {
+    font-size: 28px;
+    line-height: 32px;
+    width: 223px;
+  }
+  .howIt p {
+    width: 223px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  footer {
+    height: 270px;
+  }
+
+  .container {
+    width: 282px;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    gap: 32px;
+  }
+  .mainNav1 {
+    width: 282px;
+    padding-bottom: 33px;
+  }
+}
+
+@media (max-width: 730px) {
+  .why_choose_us {
+    background-size: contain;
+    background-position: top center;
+  }
+  .great_coffe {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 614px) {
+
+  header {
+    max-width: 327px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    width: 163px;
+    height: 18px;
+  }
+  .main_nav {
+    display: none;
+  }
+
+  .mobile_menu {
+    display: flex;
+  }
+
+  .main_nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: 327px;
+    height: 620px;
+    padding-top: 40px;
+    background-image: url(./img/backgrounds/mobile_menu_background.png);
+    background-position: center;
+  }
+
+  .main_nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_nav a {
+    color: #333d4b;
+    text-align: center;
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+    text-transform: none;
+  }
+
+  .great_coffe {
+    min-height: 500px;
+    background: url(img/backgrounds/great_coffe_background_614px.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    background-size: 327px 500px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 120px;
+  }
+  .great_coffe h2 {
+    width: 279px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .great_coffe p {
+    width: 279px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .our_colection {
+    background: url(./img/backgrounds/our\ collection.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .why_choose_us {
+    background-image: url(./img/backgrounds/why_choose_background_400px.png);
+    background-size: 327px 902px;
+    border-radius: 10px;
+    gap: 24px;
+    margin-bottom: 120px;
+  }
+  .mainChoose {
+    display: flex;
+    width: 279px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    padding-top: 64px;
+    padding-bottom: 40px;
+  }
+
+  .why_choose_us h2 {
+    width: 279px;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .why_choose_us h2 + p {
+    width: 279px;
+    font-size: 15px;
+  }
+
+  .choose {
+    width: 279px;
+    height: 382px;
+    flex-direction: column;
+  }
+  .choose img {
+    width: 71px;
+    height: 71px;
+    padding: 0;
+  }
+
+  .choose h3 {
+    text-align: center;
+  }
+  .choose p {
+    width: 212px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .choose_setting {
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .our_colection {
+    min-height: 1436px;
+    gap: 48px;
+    margin: 0;
+  }
+
+  .coffe {
+    width: 282px;
+    height: 273px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+  }
+
+  .coffe img {
+    width: 200px;
+    height: 151px;
+    padding-bottom: 8px;
+  }
+
+  footer {
+    height: 346px;
+  }
+
+  .container {
+    width: 218px;
+    height: 238px;
+    gap: 48.5px;
+  }
+
+  .mainNav1 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 0;
+  }
+
+  .nav {
+    width: 120px;
+  }
+
+  .logo1 {
+    width: 218px;
+  }
+
+  picture {
+    display: none;
+  }
+  .fourthIn h2 {
+    width: 327px;
+    text-align: center;
+  }
+  .howIt_setting {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
+
+  .howIt h3 {
+    font-size: 28px;
+    line-height: 32px;
+    width: 327px;
+    text-align: center;
+  }
+  .howIt p {
+    width: 327px;
+    height: 100px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .howIt {
+    display: flex;
+    height: 252px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .how_it_works {
+    margin: 120px auto;
+    width: 327px;
+    height: 1116px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+  }
+}
