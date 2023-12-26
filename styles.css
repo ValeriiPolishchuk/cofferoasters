@@ -11,7 +11,7 @@
   display: none !important;
 }
 
-.mobile_menu_setting{
+.mobile_menu_setting {
   padding-bottom: 0;
 }
 .social:hover {
@@ -714,7 +714,6 @@ footer {
 }
 
 @media (max-width: 614px) {
-
   header {
     max-width: 327px;
     padding-top: 32px;

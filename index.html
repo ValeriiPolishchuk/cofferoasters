@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/x-icon" href="./img/logo/small_logo.png">
+    <link rel="icon" type="image/x-icon" href="./img/logo/small_logo.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500&display=swap"
       rel="stylesheet"
@@ -31,15 +31,13 @@
     </header>
     <main>
       <section class="great_coffe">
-        <h2 class="firstIn">Great coffee made simple.</h2>
-        <p class="firstIn">
+        <h2>Great coffee made simple.</h2>
+        <p>
           Start your mornings with the world’s best coffees. Try our expertly
           curated artisan coffees from our best roasters delivered directly to
           your door, at your schedule.
         </p>
-        <a href="./create_your_plan.html"
-          ><button class="firstIn">Create your plan</button></a
-        >
+        <a href="./create_your_plan.html"><button>Create your plan</button></a>
       </section>
       <section class="our_colection">
         <!-- Gran Espresso -->
@@ -217,7 +215,9 @@
           this.classList.toggle("active");
           document.querySelector(".main_nav").classList.toggle("open");
           document.querySelector(".great_coffe").classList.toggle("close");
-          document.querySelector("header").classList.toggle("mobile_menu_setting");
+          document
+            .querySelector("header")
+            .classList.toggle("mobile_menu_setting");
         });
     </script>
   </body>
