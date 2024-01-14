@@ -403,7 +403,6 @@ footer {
   align-items: center;
 }
 
-
 .choose_setting {
   display: flex;
   gap: 24px;
@@ -852,7 +851,7 @@ footer {
   }
   .howIt p {
     width: 327px;
-    height: 100px;
+    max-height: 100px;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
@@ -860,7 +859,8 @@ footer {
 
   .howIt {
     display: flex;
-    height: 252px;
+    max-height: 252px;
+    min-height: 240px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
