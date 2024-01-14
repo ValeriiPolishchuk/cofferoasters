@@ -19,9 +19,6 @@
       <a href="./index.html"
         ><img class="logo" src="./img/logo/top_logo.svg" alt="logo"
       /></a>
-      <div class="mobile_menu">
-        <span></span>
-      </div>
       <nav class="main_nav">
         <ul>
           <li><a href="./index.html">Home</a></li>
@@ -29,6 +26,18 @@
           <li><a href="./create_a_plan.html">Create your plan</a></li>
         </ul>
       </nav>
+      <div class="mobile_menu_page_2">
+        <span></span>
+      </div>
+      <div class="main_nav_page_about">
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./create_a_plan.html">Create your plan</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="about">
@@ -41,7 +50,22 @@
         </p>
       </section>
       <section class="commitment">
-        <img src="./img/img_on_page/man_with_coffe.png" alt="man_with_coffe" />
+        <picture>
+          <source
+            srcset="./img/img_on_page/man_with_coffe_450px.jpg"
+            media="(max-width: 450px)"
+          />
+          <source
+            srcset="./img/img_on_page/man_with_coffe_800px.jpg"
+            media="(max-width: 800px)"
+          />
+
+          <img
+            src="./img/img_on_page/man_with_coffe.png"
+            alt="man_with_coffe"
+          />
+        </picture>
+
         <article class="commitmentIn">
           <h2>Our commitment</h2>
           <p>
@@ -71,7 +95,21 @@
             brewing is easy and enjoyable.
           </p>
         </article>
-        <img src="./img/img_on_page/coffe_on_table.png" alt="coffe_on_table" />
+        <picture>
+          <source
+            srcset="./img/img_on_page/coffe_on_table_450px.jpg"
+            media="(max-width: 450px)"
+          />
+          <source
+            srcset="./img/img_on_page/coffe_on_table_800px.jpg"
+            media="(max-width: 800px)"
+          />
+
+          <img
+            src="./img/img_on_page/coffe_on_table.png"
+            alt="coffe_on_table"
+          />
+        </picture>
       </section>
       <section class="our_headquarters">
         <h2>Our headquarters</h2>
@@ -118,9 +156,7 @@
           <li><a class="Bottom" href="index.html">HOME</a></li>
           <li><a class="Bottom" href="about.html">ABOUT US</a></li>
           <li>
-            <a class="Bottom" href="./create_a_plan.html"
-              >Create your plan</a
-            >
+            <a class="Bottom" href="./create_a_plan.html">Create your plan</a>
           </li>
         </ul>
         <ul class="nav">
@@ -156,11 +192,14 @@
     </footer>
     <script>
       document
-        .querySelector(".mobile_menu")
+
+        .querySelector(".mobile_menu_page_2")
         .addEventListener("click", function () {
           this.classList.toggle("active");
-          document.querySelector(".main_nav").classList.toggle("open");
-          document.querySelector(".great_coffe").classList.toggle("close");
+          document
+            .querySelector(".main_nav_page_about")
+            .classList.toggle("open");
+          document.querySelector(".about").classList.toggle("close");
           document
             .querySelector("header")
             .classList.toggle("mobile_menu_setting");

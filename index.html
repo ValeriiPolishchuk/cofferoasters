@@ -28,6 +28,18 @@
           <li><a href="./create_a_plan.html">Create your plan</a></li>
         </ul>
       </nav>
+      <script>
+        document
+          .querySelector(".mobile_menu")
+          .addEventListener("click", function () {
+            this.classList.toggle("active");
+            document.querySelector(".main_nav").classList.toggle("open");
+            document.querySelector(".great_coffe").classList.toggle("close");
+            document
+              .querySelector("header")
+              .classList.toggle("mobile_menu_setting");
+          });
+      </script>
     </header>
     <main>
       <section class="great_coffe">
@@ -172,9 +184,7 @@
           <li><a class="Bottom" href="./index.html">HOME</a></li>
           <li><a class="Bottom" href="./about.html">ABOUT US</a></li>
           <li>
-            <a class="Bottom" href="./create_a_plan.html"
-              >Create your plan</a
-            >
+            <a class="Bottom" href="./create_a_plan.html">Create your plan</a>
           </li>
         </ul>
         <ul class="nav">
@@ -208,17 +218,6 @@
         </ul>
       </div>
     </footer>
-    <script>
-      document
-        .querySelector(".mobile_menu")
-        .addEventListener("click", function () {
-          this.classList.toggle("active");
-          document.querySelector(".main_nav").classList.toggle("open");
-          document.querySelector(".great_coffe").classList.toggle("close");
-          document
-            .querySelector("header")
-            .classList.toggle("mobile_menu_setting");
-        });
-    </script>
+    
   </body>
 </html>

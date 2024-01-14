@@ -1,3 +1,13 @@
+.pointer_up {
+  display: none;
+}
+
+.arrow_down:active{
+  background-image: url(./img/icons/pointer_up.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .create_a_plan {
   max-width: 1280px;
   min-height: 450px;
@@ -200,7 +210,9 @@
   cursor: default;
 }
 
-.create_my_plan:hover{
-    background: #e2dedb;
-    
+.create_my_plan:hover {
+  background: #e2dedb;
 }
+
+
+
