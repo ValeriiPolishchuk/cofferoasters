@@ -841,6 +841,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 56px;
+    align-content: center;
   }
 
   .howIt h3 {
@@ -851,7 +852,7 @@ footer {
   }
   .howIt p {
     width: 327px;
-    max-height: 100px;
+    max-height: 40px;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
@@ -860,7 +861,7 @@ footer {
   .howIt {
     display: flex;
     max-height: 252px;
-    min-height: 240px;
+    min-height: 180px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -869,8 +870,8 @@ footer {
 
   .how_it_works {
     margin: 120px auto;
-    width: 327px;
-    height: 1116px;
+    max-width: 327px;
+    min-height: 1116px;
     display: flex;
     gap: 80px;
     justify-content: center;
